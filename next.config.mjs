@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  output:"standalone",
  
   // Optional: Change the output directory `out` -> `dist`
   distDir: 'dist',
